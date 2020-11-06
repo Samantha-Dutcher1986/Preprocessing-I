@@ -1,1 +1,286 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Bangers', cursive;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+}
+.container {
+  width: 880px;
+  margin: auto;
+}
+/* Header Styles */
+header {
+  width: 100%;
+  display: flex;
+}
+header nav {
+  margin-top: 1rem;
+  display: flex;
+  padding-top: 0.5rem;  
+  margin-left: auto;
+}
+header nav a {
+  text-decoration: none;
+  color: #b0b0b0;
+  padding: 1rem;
+}
+header nav a:hover {
+  text-decoration: none;
+  color: darkblue;
+}
+
+/* Call To Action (CTA) Styles */
+.cta {
+  display: flex;
+  margin-top: 3rem;
+  padding-top: 1rem;
+  /* justify-content: flex-end; */
+  border-top: 1px solid darkgray;
+  flex-direction: column;
+  justify-content: center;
+}
+.cta .cta-text {
+  font-size: 1.5rem;
+  text-align: center;
+  letter-spacing: 5px;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  align-items: center;
+  margin: 0 82px 0 0;
+  margin-left: 4rem;
+}
+.cta button {
+  border: 1px double black;
+  font-size: 16px;
+  background: white;
+  width: 8rem;
+  height: 3rem;
+  margin-top: 10px;
+  cursor: pointer;
+  margin-left: 25rem;
+}
+.cta button:hover {
+  background: black;
+  color: white;
+}
+/* Main Content Styles */
+.top-content{
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  margin: 0 auto;
+  padding: 1rem 0;
+  /* font-size: 2.5rem; */
+  line-height: 2rem;
+  background-color: lightblue;
+}
+.top-content h1{
+  font-size: 2.5rem;
+  margin-left: 0.5rem;
+}
+h3{
+  font-size: 1.75rem;
+  margin-left: 0.5rem;
+}
+.top-content img{
+  margin-left: 0.5rem;
+}
+.middle-content{
+  display: flex;
+  flex-direction: row;
+  line-height: 1.5rem;
+  padding: 1rem;
+}
+.middle-content .introp{
+  width: 65%;
+}
+.middle-content .introp h2{
+  font-size: 1.5rem;
+}
+.middle-content .skills{
+  width: 30%;
+  padding-left: 3rem;
+}
+.bottom-content{
+  padding: 1rem;
+  line-height: 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.bottom-content .tr1{
+  font-weight: bold;
+  background-color: lightslategray;
+  text-align: center;
+}
+.bottom-content .tr2{
+  background-color: darkgray;
+  text-align: left;
+}
+.bottom-content .tr3{
+  background-color: lightslategray;
+}
+.bottom-content .tr4{
+  background-color: darkgray;
+}
+.bottom-content td{
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  border-left: 1px solid black;
+}
+/* Contact Styles */
+.contact p {
+  margin: 15px 0;
+}
+/* Footer Styles */
+footer {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 2rem;
+  height: 6rem;
+  background-color: lightblue;
+  text-align: center;
+}
+footer p{
+  padding-top: 2rem;
+}
